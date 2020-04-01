@@ -7,7 +7,8 @@ import CollectionPrview from '../collection-preview/collection-preview.component
 
 import './collections-overview.styles.scss';
 
-const CollectionsOverview = ({ collections}) => {   
+const CollectionsOverview = (props) => {   
+    const { collections} = props;
     return (
     <div className='collections-overivew'>
    { 
